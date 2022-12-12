@@ -1,0 +1,69 @@
+.skills__block {
+  display: flex;
+  gap: 18px;
+}
+.skills__block .speaking, .skills__block .writing,
+.skills__block .reading, .skills__block .listening {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.skills__block .speaking .textblock, .skills__block .writing .textblock,
+.skills__block .reading .textblock, .skills__block .listening .textblock {
+  text-align: center;
+}
+.skills__block .speaking .textblock button, .skills__block .writing .textblock button,
+.skills__block .reading .textblock button, .skills__block .listening .textblock button {
+  padding: 15px 25px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 218px;
+  height: 60px;
+}
+.skills__block .speaking .imageblock, .skills__block .writing .imageblock,
+.skills__block .reading .imageblock, .skills__block .listening .imageblock {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills__block .speaking .imageblock img, .skills__block .writing .imageblock img,
+.skills__block .reading .imageblock img, .skills__block .listening .imageblock img {
+  width: 100%;
+  height: 100%;
+}
+.skills__block .writing, .skills__block .reading {
+  position: relative;
+}
+.skills__block .writing .textblock, .skills__block .reading .textblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__block .writing .textblock button, .skills__block .reading .textblock button {
+  position: absolute;
+  bottom: 20px;
+}
+.skills__block .speaking {
+  min-height: 100%;
+}
+.skills__block .listening {
+  display: flex;
+}
+.skills__block .listening .textblock {
+  text-align: start;
+}
+.skills__block .listening .imageblock {
+  height: 100%;
+}
+.skills__block__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills__block__right__topblocks {
+  display: flex;
+  gap: 18px;
+}/*# sourceMappingURL=skills.css.map */

@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  margin-top: 133px;
+  align-items: center;
+  gap: 600px;
+  border-top: 1px solid #C4C4C4;
+}
+footer .logo {
+  display: flex;
+  font-size: 36px;
+}
+footer span:last-child {
+  color: #939393;
+}
+footer .text-gray {
+  margin-top: 42px;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,37 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  gap: 100px;
+}
+.contacts__textblock {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contacts__textblock form {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+}
+.contacts__textblock form input {
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 10px;
+  border: 1px solid #8F95A5;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+.contacts__textblock form input:focus, .contacts__textblock form input:hover {
+  outline: 6px solid rgba(143, 149, 165, 0.662745098);
+}
+.contacts__textblock form button {
+  padding: 25px 80px;
+  box-sizing: border-box;
+  background: #263238;
+  color: white;
+  border: 2px solid #263238;
+  border-radius: 10px;
+}/*# sourceMappingURL=contacts.css.map */

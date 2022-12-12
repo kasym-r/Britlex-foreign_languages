@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import "./header/style.css";
+@import "./intro/style.css";
+@import "./skills/skills.css";
+@import "./about-us/style.css";
+@import "./pricing/prising.css";
+@import "./contacts/contacts.css";
+@import "./footer/footer.css";
+* {
+  padding: none;
+  margin: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 60px 130px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  padding: none;
+  background-color: none;
+  border-radius: 5%;
+  font-weight: 400;
+}
+
+.white-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #263238;
+  font-size: 24px;
+}
+
+.black-btn {
+  background: #263238;
+  color: white;
+  border: 2px solid #263238;
+  font-size: 36px;
+  padding: 16px 70px;
+}
+
+.title h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.text-gray {
+  color: #8F95A5;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */

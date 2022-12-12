@@ -1,0 +1,84 @@
+$block-back: #F5F5F5;
+
+.skills {
+    &__block {
+        display: flex;
+        gap: 18px;
+
+        .speaking, .writing,
+        .reading, .listening {   
+            background-color: $block-back;
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            
+            .textblock {
+                text-align: center;
+
+                button {
+                    padding: 15px 25px;
+                    box-sizing: border-box;
+                    font-size: 16px;
+                    width: 218px;
+                    height: 60px;
+                }
+            }
+
+            .imageblock {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .writing, .reading {
+            position: relative;
+
+            .textblock {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                button {
+                position: absolute;
+                bottom: 20px;
+                }
+            }
+
+            
+        }
+
+        .speaking {
+            min-height: 100%;
+        }
+
+        .listening {
+            display: flex;
+            .textblock {
+            text-align: start;
+            }
+
+            .imageblock {
+                height: 100%;
+            }
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &__topblocks {
+                display: flex;
+                gap: 18px;
+            }
+        }
+    }
+}

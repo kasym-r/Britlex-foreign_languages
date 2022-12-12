@@ -1,0 +1,46 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    gap: 100px;
+
+    &__image {
+
+    }
+
+    &__textblock {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        form {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            font-size: 16px;
+
+            input {
+                width: 100%;
+                padding: 25px 30px;
+                border-radius: 10px;
+                border: 1px solid #8F95A5;
+                border-radius: 10px;
+                outline: none;
+                transition: all .1s ease-in-out;
+
+                &:focus, &:hover {
+                    outline: 6px solid #8f95a5a9;
+                }
+            }
+
+            button {
+                padding: 25px 80px;
+                box-sizing: border-box;
+                background: #263238;
+                color: white;
+                border: 2px solid #263238;
+                border-radius: 10px;
+            }
+        }
+    }
+}

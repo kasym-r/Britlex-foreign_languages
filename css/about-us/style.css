@@ -1,0 +1,39 @@
+.about-us {
+  display: flex;
+  margin-top: 252px;
+  align-items: center;
+  gap: 180px;
+  position: relative;
+}
+.about-us__text h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+.about-us__text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8F95A5;
+}
+.about-us__numbers div {
+  margin: 0;
+  display: flex;
+  gap: 160px;
+}
+.about-us__numbers div h1 {
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 48px;
+  color: #2A3246;
+  gap: 150px;
+}
+.about-us__numbers div p {
+  align-items: center;
+  color: #8F95A5;
+  gap: 180px;
+  padding-left: 15px;
+}
+.about-us__numbers div #n3 {
+  position: absolute;
+  left: 405px;
+}/*# sourceMappingURL=style.css.map */

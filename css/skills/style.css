@@ -1,0 +1,71 @@
+.skills {
+    
+}
+
+.skills-block {
+    display: grid;
+    grid-template-areas:
+    "s w r"
+    "s l l";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 18px;
+}
+
+/* .skills-block .imageblock img {
+    width: 100%;
+    height: 100%;
+} */
+
+.skills-block .textblock button {
+    padding: 10px 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.skills-block .speaking, 
+.writing, .reading, .listening {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.skills-block .speaking {
+    grid-area: s;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr;
+}
+
+.skills-block .writing {
+    grid-area: w;
+}
+
+.skills-block .reading {
+    grid-area: r;
+}
+
+.skills-block .listening {
+    display: grid;
+    grid-area: l;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-block .listening h2 {
+    text-align: start;
+}
+
+.skills-block .listening p {
+    text-align: start;
+}
+
+.skills-block .listening button {
+    display: flex;
+    align-self: flex-start;
+}
+
